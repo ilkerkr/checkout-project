@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.component {
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  flex: 1.25;
+}
+
+.second {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .component {
+    display: flex;
+    flex-direction: column;
+  }
+}

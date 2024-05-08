@@ -1,0 +1,32 @@
+.list {
+    padding: .5rem;
+    display: flex;
+    border-radius: .5rem;
+    background-color: #eee;
+    margin-top: 1rem;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+.quantity{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border: 3px solid #ddd;
+    padding: .3rem;
+}
+
+@media(max-width: 700px){
+    .img{
+        width: 120px;
+        height: 120px;
+        margin: auto;
+    }
+}
+
